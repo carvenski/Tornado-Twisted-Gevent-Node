@@ -8,9 +8,7 @@ Asyn Framework, Tornado + Twisted + Node, they all use event-driven/callback Asy
 ```
 /桌面GUI/web端js/nodejs/toanado/twisted等都采用的[异步/回调函数/Event-Loop]机制.
 ```
-```
 [javascripte/nodejs event-loop介绍](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
-```
-```
-[libuv Async I/O库介绍](http://luohaha.github.io/Chinese-uvbook/source/basics_of_libuv.html)
-```
+
+[libuv Async I/O库 event-loop介绍](http://luohaha.github.io/Chinese-uvbook/source/basics_of_libuv.html)
+
