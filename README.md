@@ -15,10 +15,10 @@ c语言（linux下）中使用select/poll/epoll等技术来实现异步IO，其�
 ```
 [javascript/nodejs event-loop介绍](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
 
-[libuv Async I/O库 event-loop介绍](http://luohaha.github.io/Chinese-uvbook/source/basics_of_libuv.html)
+[libuv Async IO库 event-loop介绍](http://luohaha.github.io/Chinese-uvbook/source/basics_of_libuv.html)
 
-[libuv Async I/O库 API介绍](http://docs.libuv.org/en/v1.x/)
-[  /libuv Async I/O库 C API介绍](http://docs.libuv.org/en/v1.x/loop.html)
+[libuv Async IO库 API介绍](http://docs.libuv.org/en/v1.x/)
+[  /libuv Async IO库 C API介绍](http://docs.libuv.org/en/v1.x/loop.html)
 
 [libuv Python API](https://github.com/saghul/pyuv)
 [    /libuv Python API介绍](https://pyuv.readthedocs.io/en/v1.x/)
