@@ -18,6 +18,7 @@ c语言（linux下）中使用select/poll/epoll等技术来实现异步IO，其�
 [libuv Async I/O库 event-loop介绍](http://luohaha.github.io/Chinese-uvbook/source/basics_of_libuv.html)
 
 [libuv Async I/O库 API介绍](http://docs.libuv.org/en/v1.x/)
+[libuv Async I/O库 C API介绍](http://docs.libuv.org/en/v1.x/loop.html)
 
 [libuv Python API介绍](https://github.com/saghul/pyuv)
 
