@@ -21,8 +21,8 @@ c语言（linux下）中使用select/poll/epoll等技术来实现异步IO，其�
 
 [libuv Python API](https://github.com/saghul/pyuv)
 
-[*libuv C API介绍 ](http://docs.libuv.org/en/v1.x/loop.html)
-[ + *libuv Python API介绍](https://pyuv.readthedocs.io/en/v1.x/)
+[libuv C API介绍 ](http://docs.libuv.org/en/v1.x/loop.html)
+[ + libuv Python API介绍](https://pyuv.readthedocs.io/en/v1.x/)
 
 
 
