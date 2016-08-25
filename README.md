@@ -3,7 +3,7 @@
 Asyn Framework, Tornado + Twisted + Node, they all use event-driven/callback Asyn Mechanism.
 ```
 ```
-异步机制可以用来提高[大访问量高并发网站]的性能(+负载均衡+缓存). 
+异步机制可以用来提高[大访问量高并发网站]的性能(Nginx(内部异步)负载均衡+缓存). 
 ```
 ```
 /桌面GUI/web端js/nodejs/toanado/twisted等都采用的[异步/回调函数/Event-Loop]机制.
