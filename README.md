@@ -1,12 +1,12 @@
-# Tornado-Twisted-Node(Event-Loop实现机制)
+# Tornado-Twisted-Gevent-Node(Event-Loop实现机制)
 ```
-Asyn Framework, Tornado + Twisted + Node, they all use event-driven/callback Asyn Mechanism.
+Asyn Framework, Tornado + Twisted + Gevent + Node, they all use event-driven/callback Asyn Mechanism.
 ```
 ```
 异步机制可以用来提高[大访问量高并发网站]的性能(Nginx(内部异步)负载均衡+缓存). 
 ```
 ```
-/桌面GUI/web端js/nodejs/toanado/twisted等都采用的[异步/回调函数/Event-Loop]机制.
+/桌面GUI/web端js/nodejs/toanado/twisted/gevent等都采用的[异步/回调函数/Event-Loop]机制.
 ```
 ```
 异步 IO（准确来讲应该是异步 event），在各个语言里封装各不相同，但是原理应该是大同小异的。
