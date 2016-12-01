@@ -17,6 +17,9 @@ c语言（linux下）中使用select/poll/epoll等技术来实现异步IO，其�
 Twisted库里面实现了各种网络协议的【异步】的【客户端和服务器】（如httpclient+httpserver等），
 Twisted主要是用来创建具有可扩展性、跨平台的【网络服务器和客户端的引擎】
 ```
+```
+gevent是基于协程(轻量级伪线程)的Python网络库
+```
 [javascript/nodejs event-loop介绍](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
 
 [libuv Async IO库 event-loop介绍](http://luohaha.github.io/Chinese-uvbook/source/basics_of_libuv.html)
