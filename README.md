@@ -18,6 +18,8 @@ Twisted库里面实现了各种网络协议的【异步】的【客户端和服�
 Twisted主要是用来创建具有可扩展性、跨平台的【网络服务器和客户端的引擎】
 ```
 ```
+gevent是利用协程（greenlet库）实现的一个高性能异步IO的库，它做的事情就是实现异步模型。
+gunicorn/uwsgi可以配合gevent实现异步模型，并发能力进一步提高
 gevent里协程是基于greenlet的轻量级执行单元，
 gevent是基于协程(轻量级伪线程)的Python网络库,gevent的【多协程】也可以大幅提高【并发】处理性能.
 基于但相比于greenlet库，gevent内部多了个event-loop来自动控制切换多协程，处理并发性能也很高，
