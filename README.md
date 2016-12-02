@@ -19,7 +19,8 @@ Twisted主要是用来创建具有可扩展性、跨平台的【网络服务器�
 ```
 ```
 gevent是基于协程(轻量级伪线程)的Python网络库,gevent的【多协程】也可以大幅提高【并发】处理性能.
-基于但相比于greenlet库，gevent内部多了个event-loop来自动控制切换多协程，处理并发性能也很高
+基于但相比于greenlet库，gevent内部多了个event-loop来自动控制切换多协程，处理并发性能也很高，
+gevent.monkey.patch_all()的作用是将一些常见的阻塞，如socket等会阻塞的地方实现协程跳转，而不是在那里一直等待(类似异步？)
 ```
 [javascript/nodejs event-loop介绍](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
 
